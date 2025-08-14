@@ -1,0 +1,11 @@
+html {
+   body {
+      letter-spacing: var(--tracking-wide);
+      font-size: var(--text-sm);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: var(--font-public-sans), system-ui, sans-serif;
+      color: var(--color-slate-600);
+      line-height: calc(var(--spacing) * 5);
+   }
+}

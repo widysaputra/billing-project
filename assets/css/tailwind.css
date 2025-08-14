@@ -1,0 +1,14 @@
+@import "./fonts/_public-sans.css";
+@import "./components/box.css";
+@import "./components/global.css";
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+   @tailwind base;
+}
+
+@layer tailwind-utilities {
+   @tailwind components;
+   @tailwind utilities;
+}
